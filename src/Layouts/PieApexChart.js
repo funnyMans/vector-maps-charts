@@ -1,10 +1,10 @@
-import ReactApexChart from "react-apexcharts";
+import ReactApexChart from 'react-apexcharts';
 
 const state = {
   series: [44, 55, 41, 17, 15],
   options: {
     chart: {
-      type: "donut",
+      type: 'donut',
     },
     responsive: [
       {
@@ -14,7 +14,7 @@ const state = {
             width: 100,
           },
           legend: {
-            position: "bottom",
+            position: 'bottom',
           },
         },
       },
@@ -24,11 +24,11 @@ const state = {
 
 const PieApexChart = () => {
   return (
-    <div id="chart">
+    <div className='chart w-1/3'>
       <ReactApexChart
         options={state.options}
         series={state.series}
-        type="donut"
+        type='donut'
       />
     </div>
   );

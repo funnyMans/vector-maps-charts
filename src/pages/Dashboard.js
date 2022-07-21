@@ -1,7 +1,8 @@
-import React from "react";
-import AddToFavorites from "../Layouts/AddToFavorites";
-import Charts from "../Layouts/Charts";
-import Stats from "../Layouts/Stats";
+import React from 'react';
+import AddToFavorites from '../Layouts/AddToFavorites';
+import Charts from '../Layouts/Charts';
+import Records from '../Layouts/Records';
+import Stats from '../Layouts/Stats';
 
 const Dashboard = () => {
   return (
@@ -9,6 +10,7 @@ const Dashboard = () => {
       <AddToFavorites />
       <Stats />
       <Charts />
+      <Records />
     </div>
   );
 };
